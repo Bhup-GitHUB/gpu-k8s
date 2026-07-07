@@ -9,3 +9,7 @@ console.log("");
 cluster.submit({ name: "trainer-2", gpuLimit: 1 });
 console.log("");
 cluster.submit({ name: "notebook-1", gpuLimit: 1 });
+console.log("");
+cluster.submit({ name: "big-job", gpuLimit: 4 });
+console.log("");
+cluster.submit({ name: "late-job", gpuLimit: 1 });
